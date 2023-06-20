@@ -4,4 +4,4 @@ export function forEach(items, callback) {
   }
 }
 
-export default forEach;
+module.exports = forEach;

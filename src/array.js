@@ -6,4 +6,4 @@ const shoppingList = [
   "leite",
 ];
 
-export default shoppingList;
+module.exports = shoppingList;
