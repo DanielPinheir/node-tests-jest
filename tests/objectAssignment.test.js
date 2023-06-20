@@ -1,4 +1,4 @@
-const objectAssignment = require("./objectAssignment");
+const objectAssignment = require("../src/objectAssignment");
 
 const data = { one: 1 };
 

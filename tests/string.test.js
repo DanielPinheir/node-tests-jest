@@ -1,4 +1,4 @@
-const { stringWithoutI, nameWithStop } = require("./string");
+const { stringWithoutI, nameWithStop } = require("../src/string");
 
 test("nao existe I em string", () => {
   expect(stringWithoutI).not.toMatch(/I/);
