@@ -1,4 +1,4 @@
-const shoppingList = require("../src/array");
+import shoppingList from "../src/array";
 
 test("tem leite na lista de compras", () => {
   expect(shoppingList).toContain("leite");

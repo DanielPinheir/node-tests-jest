@@ -3,4 +3,4 @@ function objectAssignment(object) {
   return object;
 }
 
-module.exports = objectAssignment;
+export default objectAssignment;

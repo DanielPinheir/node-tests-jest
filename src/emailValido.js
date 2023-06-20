@@ -3,4 +3,4 @@ const validateEmail = (email) => {
   return re.test(email);
 };
 
-module.exports = validateEmail;
+export default validateEmail;

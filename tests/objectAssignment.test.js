@@ -1,4 +1,4 @@
-const objectAssignment = require("../src/objectAssignment");
+import objectAssignment from "../src/objectAssignment";
 
 const data = { one: 1 };
 
