@@ -1,4 +1,4 @@
-import { stringWithoutI, nameWithStop } from "../src/string";
+const { stringWithoutI, nameWithStop } = require("../src/string");
 
 test("nao existe I em string", () => {
   expect(stringWithoutI).not.toMatch(/I/);
